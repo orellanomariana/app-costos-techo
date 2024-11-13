@@ -1,0 +1,11 @@
+# Activa el entorno virtual
+venv\Scripts\activate
+
+# Instala las dependencias
+pip install streamlit pandas openpyxl
+
+
+
+cd "C:\Users\orell\OneDrive\Escritorio\Data Science\app costos"
+# Ejecuta la aplicación
+streamlit run app.py
